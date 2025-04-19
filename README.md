@@ -1,4 +1,4 @@
-# Scraping Chatbot
+# Commune Scraping Chatbot
 
 ## Overview
 
@@ -14,25 +14,23 @@ This project is a scraping chatbot designed to extract information from websites
 
 ## Installation
 
+1. Frontend:
+
+    ```
+    npm install
+
+    npm run build
+
+    npm start
+    ```
+
+2. Backend:
+
     ```
     pip install -r requirements.txt
-    ```
 
-## Usage
-
-1. Configure scraping environment:
-
-    Write you OPENAI_API_KEY in .env file
-
-2. Run the chatbot:
-
-    ```
     flask --app chatbot run
     ```
-
-3. Interact with the chatbot:
-
-    Once the chatbot is running, you can start interacting with it by sending queries or commands.
 
 ## Example Queries
 
@@ -52,6 +50,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Create a new Pull Request.
 
+
 ## Acknowledgments
 
-- Thanks to Beautifulsoup and langchain for providing the web scraping functionality.
+- Thanks to Beautifulsoup ad Langchain for providing the web scraping functionality.
