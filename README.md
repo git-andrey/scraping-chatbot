@@ -24,7 +24,6 @@ This project is a scraping chatbot designed to extract information from websites
     npm run build
 
     npm start
-    
     ```
 
 2. Backend:
