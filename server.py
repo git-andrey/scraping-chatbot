@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import logging
 import uvicorn
 
-from main import conversation_with_chatbot
+from llm_client import conversation_with_chatbot
 from scrape import scrape_website
 from embed import embed_data
 
