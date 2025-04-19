@@ -17,11 +17,14 @@ This project is a scraping chatbot designed to extract information from websites
 1. Frontend:
 
     ```
+    cd client
+
     npm install
 
     npm run build
 
     npm start
+    
     ```
 
 2. Backend:
@@ -29,7 +32,7 @@ This project is a scraping chatbot designed to extract information from websites
     ```
     pip install -r requirements.txt
 
-    flask --app chatbot run
+    uvicorn server:app --host 0.0.0.0 --port 80
     ```
 
 ## Example Queries
