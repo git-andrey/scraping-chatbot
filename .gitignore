@@ -4,3 +4,9 @@ chroma/
 .venv
 
 __pycache__/
+
+client/.env
+client/.env.local
+client/node_modules/
+client/package-lock.json
+client/yarn.lock
